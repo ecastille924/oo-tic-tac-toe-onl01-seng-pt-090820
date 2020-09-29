@@ -4,4 +4,8 @@ class TicTacToe
   end
   
 WIN_COMBINATIONS
+  [0, 1, 2]
+  [0, 5, 9]
+  [0, 4, 7]
+  
 end
