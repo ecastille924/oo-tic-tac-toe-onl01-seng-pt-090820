@@ -26,7 +26,7 @@ WIN_COMBINATIONS = [
     choice.to_1 -1
   end
   
-  def move(choice, "X" || "O" )
-    
+  def move(choice, player = "X" )
+    @
   end
 end
