@@ -55,7 +55,7 @@ WIN_COMBINATIONS = [
   
   def turn_count
     turn_total = 0 
-    
+    @board.each do |space|
   end
   
 end
