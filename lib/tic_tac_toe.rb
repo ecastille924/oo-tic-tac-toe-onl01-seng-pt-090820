@@ -30,13 +30,11 @@ WIN_COMBINATIONS = [
     @board[choice] = player 
   end
   
-  def position_taken?
-    def position_taken?(index)
+  def position_taken?(index)
     !(@board[index].nil? || @board[index] == " ")
   end
   
-  def vaid_move
-    def valid_move?(index)
+  def valid_move?(index)
     index.between?(0,8) && !position_taken?(index)
   end
   
