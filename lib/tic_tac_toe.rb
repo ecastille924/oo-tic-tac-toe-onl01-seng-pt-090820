@@ -24,7 +24,6 @@ WIN_COMBINATIONS = [
   
   def input_to_index(choice)
     choice.to_1 -1
-    
   end
   
   def move( )
