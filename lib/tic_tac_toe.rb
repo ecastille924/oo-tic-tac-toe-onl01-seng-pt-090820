@@ -82,6 +82,12 @@ WIN_COMBINATIONS = [
     @board.all?{|occupied| occupied != " "}
   end
   
-  
+  def draw?
+    !(won?) && (full?)
+  end
+
+  def over?
+    won? || full? || draw?
+  end
   
 end
