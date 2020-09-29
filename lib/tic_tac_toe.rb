@@ -57,8 +57,9 @@ WIN_COMBINATIONS = [
     turn_total = 0 
     @board.each do |space|
       if space == "X" || space == "O"
-        turn_total = 
-        
+        turn_total += 1
+      end
+    end
   end
   
 end
