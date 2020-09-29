@@ -27,6 +27,6 @@ WIN_COMBINATIONS = [
   end
   
   def move(choice, player = "X" )
-    @
+    @board = choice[player]
   end
 end
