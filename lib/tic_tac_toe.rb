@@ -23,7 +23,7 @@ WIN_COMBINATIONS = [
   end
   
   def input_to_index(choice)
-    
+    choice.to_1 -1
     
   end
   
