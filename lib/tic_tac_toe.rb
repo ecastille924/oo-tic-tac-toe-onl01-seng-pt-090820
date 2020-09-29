@@ -54,12 +54,15 @@ WIN_COMBINATIONS = [
   end
   
   def turn_count
-    turn_total = 0 
+    counter = 0
     @board.each do |space|
-      if space == "X" || space == "O"
-        turn_total += 1
+      if space == 'X' || space =='O'
+      counter += 1
       end
     end
+    counter
   end
   
+  def current_player
+    
 end
