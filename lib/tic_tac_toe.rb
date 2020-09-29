@@ -54,6 +54,7 @@ WIN_COMBINATIONS = [
   end
   
   def turn_count
+    turn_total = 0 
     
   end
   
